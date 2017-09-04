@@ -1,9 +1,9 @@
 name 'lamp'
-maintainer 'The Authors'
-maintainer_email 'you@example.com'
+maintainer 'Pavel Gontsarov'
+maintainer_email 'mrexoduso@gmail.com'
 license 'All Rights Reserved'
-description 'Installs/Configures lamp'
-long_description 'Installs/Configures lamp'
+description 'Installs/Configures LAMP'
+long_description 'Installs/Configures LAMP'
 version '0.1.0'
 chef_version '>= 12.1' if respond_to?(:chef_version)
 
@@ -18,3 +18,8 @@ chef_version '>= 12.1' if respond_to?(:chef_version)
 # a Supermarket.
 #
 # source_url 'https://github.com/<insert_org_here>/lamp'
+
+
+supports 'ubuntu'
+
+depends 'httpd', '~> 0.4'
