@@ -10,3 +10,4 @@ end
 
 
 include_recipe 'lamp::httpd'
+include_recipe 'lamp::mysql'

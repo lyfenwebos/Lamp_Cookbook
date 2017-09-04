@@ -23,3 +23,4 @@ chef_version '>= 12.1' if respond_to?(:chef_version)
 supports 'ubuntu'
 
 depends 'httpd', '~> 0.4'
+depends 'mysql', '~>8.0'
